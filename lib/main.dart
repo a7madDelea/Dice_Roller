@@ -1,5 +1,16 @@
 import 'package:flutter/material.dart';
 
+import 'gradient_container.dart';
+
 void main() {
-  runApp(const MaterialApp());
+  runApp(
+    const MaterialApp(
+      home: Scaffold(
+        body: GradientContainer(
+          Colors.orange,
+          Colors.deepOrangeAccent,
+        ),
+      ),
+    ),
+  );
 }

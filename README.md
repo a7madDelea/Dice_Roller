@@ -1,4 +1,4 @@
-# rolldice
+# Dice Roller
 
 Simple application during the learning journey.
 
